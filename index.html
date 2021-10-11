@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scooby's Shelter</title>
+    <link rel="icon" type="image/x-icon" href="images/scoobySmallLogo.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/scoobyLogo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html" >HOME</a></li>
+                    <li><a href="about.html" >ABOUT</a></li>
+                    <li><a href="adoption.html" >ADOPTION</a></li>
+                    <li><a href="aid.html" >AID</a></li>
+                    <li><a href="donate.html" >DONATE</a></li>
+                    <li><a href="contact.html" >CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1>Welcome to <span>Scooby's Shelter</span> </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <a href="#" class="hero-btn" >Vist us to know more</a>
+        </div>
+
+    </section>
+
+     <!-- Adoption -->
+     <section class="adoption">
+
+        <h1>ADOPT A DOG</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <div class="row">
+            <div class="adoption-col">
+                <img src="images/goldenRetriever.jpg" alt="Golden Retriever">
+                <div class="layer">
+                    <h3>Golden Retriever</h3>
+                </div>
+            </div>
+            <div class="adoption-col">
+                <img src="images/rottweiler.jpg" alt="Rottweiler">
+                <div class="layer">
+                    <h3>Rottweiler</h3>
+                </div>
+            </div>
+            <div class="adoption-col">
+                <img src="images/husky.jpg" alt="Husky">
+                <div class="layer">
+                    <h3>Husky</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+        <!-- Animal Aid Section -->
+        <section class="aid">
+
+            <h1 class="aid-h1">ANIMAL AID</h1>
+            <p class="aid-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <div class="row">
+                <div class="aid-col">
+                    <h3>Search Veterinarian</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                </div>
+                <div class="aid-col">
+                    <h3>Online Consultation</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                </div>
+                <div class="aid-col">
+                    <h3>Book an appointment</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Call To Action -->
+
+        <section class="cta">
+            <h1>"They can survive if you help them to survive."</h1>
+            <a href="#" class="hero-btn">CONTACT US</a>
+        </section>
+
+        <!-- Footer -->
+        <section id="footer">
+            <footer class="footer py-4">
+                      <div class="container">
+                          <div class="row align-items-center">
+                              <div class="col-lg-4 text-lg-left">Copyright © Scooby's Shelter 2021</div>
+                      <div class="social">     
+                      <a href="https://www.facebook.com/"><i class="fab fa-facebook-square" id="fb" aria-hidden="true"></i></a>
+                      <a href="https://www.instagram.com/"><i class="fab fa-instagram" id="yt" aria-hidden="true"></i></a>
+                      <a href="https://www.twitter.com/"><i class="fab fa-twitter-square" id="tw" aria-hidden="true"></i></a>
+                      <a href="https://www.linkedin.com/"><i class="fab fa-linkedin" id="gp" aria-hidden="true"></i></a>
+                    </div>
+                              <div class="col-lg-4 text-lg-right">
+                                  <a class="mr-3" href="#!">Privacy Policy</a>&nbsp;&nbsp;
+                                  <a href="#!">Terms of Use</a>
+                              <a type="button" class="btn btn-warning" href="#">Back to top</a>
+                      </div>
+                  </footer>
+                </section>
+
+<!-- JavaScript for Toggle Menu -->
+    
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+</body>
+</html>
